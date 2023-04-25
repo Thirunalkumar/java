@@ -1,0 +1,28 @@
+import java.io.*;
+import java.util.*;
+class MyException extends Exception 
+{
+MyException() 
+{ 
+System.out.println("Exception occured:given number is not in range");
+}
+}
+class range
+{  
+public static void main(String args[])
+{
+try 
+{
+Scanner s=new Scanner(System.in);
+System.out.println("enter a number berween 1 to 100:");
+int a=s.nextInt(); 
+if(a<=100 && a>0) 
+System.out.println("the entered value is:"+a);
+else 
+throw new MyException();
+}
+catch(Exception e)
+{
+}
+}
+}

@@ -1,0 +1,21 @@
+import java.io.*;
+import java.util.*;
+public class palin
+{
+public static void main(String args[]) 
+{
+String str=" ",rev = "";
+System.out.println("enter the String:");
+Scanner s=new Scanner(System.in);
+str=s.nextline();
+for (int i=0; i<str.length(); i++) 
+{
+rev=str.charAt(i)+rev;
+}
+System.out.println("the Given String is "+str+" ln reversed String is" trev);
+if(str.equals(rev))
+System.out.println("the given String "+str+" is palindrome");
+else 
+System.out.println("the given String "+str+" is not palindrome");
+}
+}

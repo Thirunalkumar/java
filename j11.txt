@@ -1,0 +1,22 @@
+import java.io.*;
+class Writ
+{
+public static void main(String args[] )
+{
+try 
+{
+FileoutputStream out= new FileoutStream("file.txt");
+String s="welcome to computer dempartment";
+byte b[]=s.getBytes();
+out.write(b);
+out.close();
+}
+catch(IOException e) 
+{
+System.out.println(e);
+}
+}
+}
+
+
+     

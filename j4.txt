@@ -1,0 +1,13 @@
+import java.io.*;
+class circle 
+{
+public Static void main(String args[]) 
+{   
+int r;
+float pi=(float)3.14,area;
+r=interger.parseInt(area[0]);
+System.out.println("the given of the circle is"+r);      
+Area =pi * r+r;
+System.out.println("the Area is: " +area);      
+}
+}
